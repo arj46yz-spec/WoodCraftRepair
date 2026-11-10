@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WoodCraft - Carpentry & Furniture Repair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">WoodCraft Repair</a>
+            <nav class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#trust">Why Us</a>
+                <a href="#booking">Book Service</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Background Work Image -->
+    <section class="hero hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>On-Demand Carpentry & Repair Services</h1>
+            <p>Reliable doorstep repair, custom shelf fittings, and furniture maintenance handled by certified local carpenters.</p>
+            <a href="#booking" class="btn">Book a Repair</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Services Section -->
+        <section id="services">
+            <div class="section-title">
+                <h2>Our Standard Services</h2>
+            </div>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <div>
+                        <span class="badge">Repair</span>
+                        <h3>Door & Lock Repair</h3>
+                        <p>Hinge alignment, latch replacement, squeak removal, and deadbolt lock installation.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="price">₹199 / unit</span>
+                        <a href="#booking" class="btn btn-sm">Select</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <span class="badge">Fix</span>
+                        <h3>Wardrobe & Drawer Fixing</h3>
+                        <p>Drawer telescopic slider replacement, channel realignment, and custom handle installations.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="price">₹249 / drawer</span>
+                        <a href="#booking" class="btn btn-sm">Select</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <span class="badge">Assembly</span>
+                        <h3>Furniture Assembly</h3>
+                        <p>Assembly and dismantle service for modular beds, study tables, dining sets, and wardrobes.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="price">₹499 / item</span>
+                        <a href="#booking" class="btn btn-sm">Select</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Parallax Trust Section with Floating Subtle Workshop Background -->
+    <section id="trust" class="trust-strip parallax-bg">
+        <div class="trust-overlay"></div>
+        <div class="trust-content">
+            <h2>Crafted with Precision & Care</h2>
+            <p>Over 1,200+ furniture pieces restored with 30-day post-service workmanship warranty.</p>
+            <div class="trust-stats">
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <span>Verified Carpenters</span>
+                </div>
+                <div class="stat-item">
+                    <h3>4.8 ★</h3>
+                    <span>Customer Rating</span>
+                </div>
+                <div class="stat-item">
+                    <h3>30-Day</h3>
+                    <span>Service Warranty</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Booking Form Section -->
+        <section id="booking" class="form-section form-bg-card">
+            <div class="section-title mb-sm">
+                <h2>Book a Service Visit</h2>
+            </div>
+            
+            <form action="#" method="post">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="9876543210" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">-- Choose a Service --</option>
+                            <option value="door">Door / Lock Repair</option>
+                            <option value="wardrobe">Wardrobe / Drawer Repair</option>
+                            <option value="assembly">Furniture Assembly</option>
+                            <option value="custom">Custom Woodwork / Shelf Fitting</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="address">Full Service Address</label>
+                        <textarea id="address" name="address" rows="3" placeholder="House/Flat number, Street, Landmark" required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="notes">Issue Description (Optional)</label>
+                        <textarea id="notes" name="notes" rows="2" placeholder="Briefly describe the repair needed..."></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn btn-block" a href="confirmation.html">Confirm & Schedule Appointment</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 WoodCraft Carpentry Solutions. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
